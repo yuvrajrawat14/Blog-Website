@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: antiquewhite;
+}
+.container{   
+    height: 100%;
+    padding: 50px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+}
+.block{
+    border:1px solid rgba(197, 191, 191, 0.838);
+    margin: 10px 0;
+}
+h1{
+    font-size: 2.5rem;
+}
+ .section1 h2{
+    font-size: 2rem;
+    padding: 15px 0 10px 0;
+}
+ .section1 h3{
+    font-size: 1.8rem;
+    padding: 12px 0 6px 0;
+}
+ul, ol{
+    padding-left: 50px;
+}
+p, ul, ol{
+    font-size: 1.5rem;
+}
+.section2 ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.section2 h2{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+ .section2 h3{
+    font-size: 1.8rem;
+    padding-bottom: 6px;
+}
+
+.block1{
+    background-color: rgb(228, 239, 244);
+    padding: 30px;
+}
+.block2{
+    padding: 30px;
+}
+.block2 a{
+    font-size: 1.5rem;
+}
+small{
+    font-size: 1rem;
+}
+
+button{
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+#but1{
+    border-color: lightblue;
+    color: lightblue;
+}
+#but2{
+    border-color: gold;
+    color: gold;
+}
